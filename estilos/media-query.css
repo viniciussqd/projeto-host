@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+
+    nav {
+        right: 4%;
+    }
+
+    nav a {
+        font-size: 0.76em;
+    }
+
+    nav > ul > li {
+        padding-right: 15px;
+    }
+}

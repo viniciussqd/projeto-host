@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hDC Host</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="imagens/hdchostlogo.png" alt=""></a>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PLANOS</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#" id="login">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="imagem">
+            <article id="img-sec-article">
+                <h1>hDC Host</h1>
+
+                <p>Os melhores planos para qualquer tipo de projeto</p>
+            </article>
+        </section>
+        <section class="container">
+            <article class="art-container">
+                <div>
+                    <i class="material-icons" id="escudo-icon">security</i>
+
+                    <h2>Segurança</h2>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nostrum laboriosam repellendus quaerat dicta ex animi nobis, doloribus fugit nulla ad amet, aperiam quia, officia ipsa voluptatem nihil minus fugiat!</p>
+            </article>
+            <article class="art-container">
+                <div>
+                    <i class="material-icons" id="foguete-icon">rocket_launch</i>
+
+                    <h2>Velocidade</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae perferendis excepturi in, odit sint quasi unde deserunt veritatis optio doloribus fugiat est blanditiis eligendi reiciendis sunt, harum dolor enim laudantium.</p>
+            </article>
+            <article class="art-container">
+                <div>
+                    <i class="material-icons" id="suporte-icon">contact_support</i>
+                    <h2>Suporte</h2>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus obcaecati quae excepturi quo veritatis quis sint culpa repellat fugiat vel deleniti iure, ex praesentium dignissimos molestiae totam expedita ipsa ea.</p>
+            </article>
+        </section>
+        <section id="planos-precos">
+            <h1>Planos e Preços</h1>
+
+            <p>Selecione o plano perfeito para você</p>
+        </section>
+        <section class="container">
+            <article class="plano">
+                <ul>
+                    <li class="preco">R$15/mês</li>
+                    <li class="tipo">PADRÃO</li>
+                    <li>2GB de espaço em disco</li>
+                    <li>10 Sub-domínios</li>
+                    <li>25 Contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li>Suporte 24/7</li>
+                    <li class="link"><a href="#">Selecionar</a></li>
+                </ul>
+            </article>
+            <article class="plano">
+                <ul>
+                    <li class="preco">R$30/mês</li>
+                    <li class="tipo">DEDICADO</li>
+                    <li>5GB de espaço em disco</li>
+                    <li>20 Sub-domínios</li>
+                    <li>50 Contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li>Suporte 24/7</li>
+                    <li class="link"><a href="#">Selecionar</a></li>
+                </ul>
+            </article>
+            <article class="plano">
+                <ul>
+                    <li id="preco2">R$50/mês</li>
+                    <li class="tipo">DEDICADO-PLUS</li>
+                    <li>10GB de espaço em disco</li>
+                    <li>100 Sub-domínios</li>
+                    <li>100 Contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li>Suporte 24/7</li>
+                    <li id="link2"><a href="#">Selecionar</a></li>
+                </ul>
+            </article>
+            <article class="plano">
+                <ul>
+                    <li class="preco">R$100/mês</li>
+                    <li class="tipo">CLOUD</li>
+                    <li>20GB de espaço em disco</li>
+                    <li>200 Sub-domínios</li>
+                    <li>200 Contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li>Suporte 24/7</li>
+                    <li class="link"><a href="#">Selecionar</a></li>
+                </ul>
+            </article>
+        </section>
+        <section id="dominio">
+            <h1>Buscar um domínio</h1>
+
+            <p>Veja se o domínio que você deseja está disponível</p>
+            <form>
+                <label for="dominio"></label>
+                <input type="text" name="dominio" id="dominio" placeholder="Digite seu domínio desejado"><br>
+                
+
+                <input type="submit" value="Buscar Domínio">
+            </form>
+        </section>
+        <section id="contato">
+            <h1>Entre em contato</h1>
+
+            <p>Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para seu negócio</p>
+
+            <p>
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail">
+            </p>
+            <p>
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            </p>
+            
+            <input type="submit" value="Enviar">
+        </section>
+    </main>
+    <footer>
+        <p>Vinicius Queiroz projects</p>
+    </footer>
+</body>
+</html>
